@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>IP1 - Finns Reise</title>
+        <link rel="shortcut icon" type="image/png" href="./images/sonstiges/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <!-- Container welche die Kontinente enthält und kontinuierlich verschoben wird -->
+        <div class="container" data-top="left:0px;" data--44845-top="left:-44845px;">
+           
+           <div id="europa">
+                
+                <!-- Startmenü -->
+                <div class="modal-menu-wrapper" 
+                data-top="visibility: visible;"
+                data--1000-top="visibility:hidden">
+                    <!-- Komplettes Modalfenster -->
+                    <section class="modal-menu-window" id="modal-menu3"  
+                    data-top="opacity:1; visibility: visible"
+                    data--670-top="opacity:1;"
+                    data--1000-top="opacity:0; visibility: hidden">
+                        <div id="scene-menu">
+                            <div id="menu">
+                                <button id="europe"><a href="#europa" data-menu-top="990"><img src="./images/menu/menu_europa.svg"></a></button>
+                                <button id="asia"><a href="#asien" data-menu-top="16900"><img src="./images/menu/menu_asien.svg"></a></button>
+                                <button id="africa"><a href="#afrika" data-menu-top="32210"><img src="./images/menu/menu_afrika.svg"></a></button>
+                            </div>
+                            
+                            <!-- Karte Europa -->
+                            <div id="step_01" class="parallax-layer-menu">
+                                <img class="continent01" src="./images/menu/start.svg">
+                                <img class="continent01" src="./images/menu/start_europa.svg" data--350-top="opacity: 0;" data--670-top="opacity: 1;">
+                                
+                                <!-- Sprechblasen Startseite -->
+                                <div  id="fuchs-menu-start" class="fuchs-menu" 
+                                    data--0-top="opacity: 0;" 
+                                    data--200-top="opacity: 1;"  
+                                    data--480-top="opacity: 0;">
+                                </div>
+                                <div  id="fuchs-menu-start2" class="fuchs-menu" 
+                                    data--200-top="opacity: 0;" 
+                                    data--550-top="opacity: 1;">
+                                </div>
+                            </div>
+                    </section>
+                </div>
+
+                <!-- Hintergründe Europa -->
+                <div id="europa-Hintergrund" class="parallax-layer"></div>
+                <div id="europa-Wolken2" class="parallax-layer" data-anchor-target="#europa" data-top="left:2000px" data--16359-top="left: -5000px;"></div>
+                <div id="europa-Wolken1" class="parallax-layer" data-anchor-target="#europa" data-top="left:100px" data--16359-top="left: -3700px;"></div>
+                <div id="europa-HuegelRomHinten" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -100px;"></div>
+                <div id="europa-HuegelRomMitte" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -2300px;"></div>
+                <div id="europa-HuegelRomVorne" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -3300px;"></div>
+                <div id="europa-HochhausHinten" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -2000px;"></div>
+                <div id="europa-HochhausVorne" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -3700px;"></div>
+                <div id="europa-HuegelAnfangHinten" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -1500px;"></div>
+                <div id="europa-Autos" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="right: -2000px;"></div> <!-- Besonderheit: Autos fahren (langsamer als Protagonist) nach rechts -->
+                <div id="europa-HuegelAnfangVorne" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -2500px;"></div>
+                <div id="europa-BerlinParisHinten" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -1000px;"></div>
+                <div id="europa-BerlinParisVorne" class="parallax-layer" data-anchor-target="#europa" data--6000-top="left:0px" data--16359-top="left: -3000px;"></div>
+                <div id="europa-Boden" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -1000px;"></div>
+                <div id="europa-BodenVordergrund" class="parallax-layer" data-anchor-target="#europa" data-top="left:0px" data--16359-top="left: -1000px;"></div>
+
+                <!-- Buttons Europa -->
+                <!-- Fernsehturm -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal1"
+                    data-top="left:2670px;"
+                    data--16359-top="left:1670px;">
+                </button>
+        
+                <!-- Jedes Modalfenster kommt als section in den wrapper, damit die Sichtbarkeit losgelöst von den einzelnen Fenstern ist -->
+                <div class="modal-wrapper">
+                    <!-- Komplettes Modalfenster,  Wolke + Sehenswürdigkei -->
+                    <section class="modal-window" id="modal1">
+                        <!-- Wolke-->
+                        <div class="modal-bubble">
+                            <!--Inhalt der Wolke-->
+                            <div class="modal-content">
+                                <!--Schließe Modalfenster-->
+                                <button class="close-modal"></button>
+                                <h2> Der Berliner Fernsehturm</h2>
+                                <!--Textabschnitte-->
+                                <div class="modal-text">
+                                    <p> Super, dass du auf das „?“ geklickt hast! </br>
+                                        Hier kannst du spannende Fakten über unsere Welt lesen. </br>
+                                        Klicke immer auf ein „?“, wenn du eins siehst! </p><br>
+                                    <p> Der Berliner Fernsehturm ist gerade mal 50 Jahre alt und steht mitten in Berlin auf dem Alexanderplatz. </p>
+                                    <p> Mit 368 Metern ist er das höchste Gebäude Deutschlands. Von der Plattform aus kann man bei gutem Wetter 80 Kilometer weit gucken (das sind 800 Fußballfelder!) </p>
+                                    <h3> Wusstest du schon? </h3>
+                                    <p>Oben in der Kugel gibt es ein Restaurant und der Turm sendet 18 Radiosender aus. </p><br>
+                                    <p>Klicke auf den roten Button oben links. Damit verlässt du dieses Fenster und wir können unsere Reise fortsetzen! </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Container der Sehenswürdigkeit, für Responsivität-->
+                        <div class ="modal-attraction">
+                            <!-- Sehenswürdigkeit im modalem Fenster hat dieselbe Klasse/ID, wie der div der Stage  -->
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/europa/Fernsehturm.svg" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Siegessäule -->
+                    <section class="modal-window" id="modal2">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Die Siegessäule </h2>
+                                <div class="modal-text">
+                                    <p> Die Siegessäule ist eine sehr hohe Säule mit einer goldenen Statue auf der Spitze.</p>
+                                    <p>Die Säule wurde kurz nach einer wichtigen gewonnen Schlacht erbaut. Das ist aber schon lange her. Heute kämpft Deutschland zum Glück in keinen Schlachten mehr.</p>
+                                    <p>Die Figur auf der Säule stellt deswegen Viktoria dar, denn Viktoria ist die römische Siegesgöttin.</p>
+                                    <p>Um die Säule herum ist ein sehr großer Park. Trotzdem siehst du auch aus weiter Entfernung die Siegessäule. Kein Wunder, sie ist auch 67 Meter hoch. Das ist ungefähr vier mal so hoch wie die Bäume drum herum.</p>                                                                    
+                                    <h3>Wusstest du schon?</h3>
+                                    <p>Die Säule stand mal an einer anderen Stelle. Dann hat man sie aber in den großen Park gestellt, wo sie heute noch steht.</p>
+                                    <p>Stell dir vor, du wärst so stark und könntest eine ganze Säule tragen. Da hätte sicher jeder Angst vor dir!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/europa/Friedenssäule.svg" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- East Side Gallery -->
+                    <section class="modal-window" id="modal3">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Die East Side Gallery </h2>
+                                <div class="modal-text">
+                                    <p> Lass dich von diesem Namen nicht verwirren. Mit diesen englischen Wörtern wird das längste Stück der ehemaligen Berliner Mauer bezeichnet.</p>
+                                    <p>Die Stadt Berlin war für eine gewisse Zeit mal in zwei Hälften gespalten. Zwischen diesen beiden Hälften stand eine riesige Mauer.</p>
+                                    <p>Heute kannst du dich in Berlin zum Glück wieder frei bewegen und die Mauer ist zerstört worden. Ein paar Reste kann man aber immer noch finden. Die East Side Gallery ist ein Stück dieser Mauer.</p>
+                                    <p>Das Besondere sind die vielen Zeichnungen an den Mauerwänden, die du dort sehen kannst. Diese Zeichnungen wurden von über 100 Künstlern aus vielen verschiedenen Ländern an die Wand gemalt.</p>                                                                    
+                                    <h3>Wusstest du schon?</h3>
+                                    <p>Auf der Mauer gibt es über 100 Malereien zu entdecken. Es dauert sicher eine Weile, bis du jede Zeichnung einmal gesehen hast.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/europa/EastSideGallery.svg" style="padding-right: 30px;" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Reichstag -->
+                    <section class="modal-window" id="modal4">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Der Reichstag <h2>
+                                <div class="modal-text">
+                                      <p> Im Reichstagsgebäude wird in Deutschland sehr viel Politik gemacht.</p>                                    
+                                      <p> Hier trifft sich nämlich immer der Bundestag. Der Bundestag ist eine Gruppe von Menschen. Diese Menschen entscheiden über die Gesetze in Deutschland, also was du machen darfst und was nicht. </p>                                    
+                                      <p> Deine Eltern und viele andere Erwachsene in Deutschland können alle vier Jahre wählen gehen. Damit wird bestimmt, wer in der Gruppe dieser Menschen ist und wer nicht.</p>                                    
+                                      <p> Das Gebäude selbst ist sehr groß und sehr interessant. Denn es war sehr oft kaputt und musste viel repariert werden. Jetzt ist es aber wieder wie neu. </p>                                                                       
+                                       <h3>Wusstest du schon?</h3>                                    
+                                      <p>Die Kuppel auf dem Dach war sogar einmal besonders kaputt. Man hat sie dann aus Sicherheitsgründen mit einem lauten Knall sprengen müssen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/europa/Reichstag.svg" style="padding-right: 30px;">
+                            </div>
+                        </div>
+                    </section>
+
+                    
+                    <!-- Brandenburger Tor -->
+                    <section class="modal-window" id="modal5">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Das Brandenburger Tor </h2>
+                                <div class="modal-text">
+                                    <p>Das Brandenburger Tor ist knapp über 200 Jahre alt (1791 wurde es gebaut), 20 Meter hoch (das ist ja gar nicht sooo hoch) und die Statue oben drauf ist die „Quadriga“. 
+                                        Das ist die Göttin des Friedens.</p>
+                                    <p> Das Brandenburger Tor steht aber nicht nur für Frieden. Sondern auch für Freiheit! </p>
+                                    <p>Früher war Deutschland in Ost und West geteilt. Da konnte man leider nicht von einem Deutschland in das andere kommen.  1989 wurde Deutschland wieder vereint und das Brandenburger Tor geöffnet. </p>
+                                    <h3> Wusstest du schon?</h3>
+                                    <p>Das Brandenburger Tor ist auf deutschen Geldmünzen abgebildet. Es kostet über 200.000€ im Jahr, um es zu pflegen (Überlege mal, wie lange du dafür sparen müsstest!). </p>
+                                    <p> Der frühere König mochte das antike Griechenland. Deswegen sehen die Säulen des Tores so aus,  wie alte Säulen in Griechenland. </p>
+                                    <p> Warst du schon einmal in einem anderen Land? Gab es da vielleicht auch was ganz interessantes, was du gerne mit nach Deutschland genommen hättest? </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/europa/BrandenburgerTor.svg" style="padding-right: 30px;">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Eiffelturm -->
+                    <section class="modal-window" id="modal6">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Der Eiffelturm </h2>
+                                <div class="modal-text">                                    
+                                    <p>Aber nicht nur Deutschland hat interessante Gebäude zu bieten. In anderen Ländern gibt es noch mehr zu sehen!</p>                                    
+                                    <p>Der Eiffelturm in Frankreich ist 324 Meter hoch (Das sind 81 Busse übereinander!) und schon über 100 Jahre alt. Er war sogar 40 Jahre lang das höchste Bauwerk der Welt!</p>                                    
+                                    <p>Auf die Spitze brauchst du ca. 2 Stunden und musst 700 Stufen erklimmen. Danach fährst du aber mit einem Aufzug auf die Spitze, damit du deine Beine schonen kannst.</p>                                    
+                                    <h3>Wusstest du schon?<h3>
+                                    <p>Der Erbauer des Eiffelturms (Gustave Eiffel) hat sich sogar ein eigenes Zimmer in den Turm gebaut.
+                                    Stell dir vor, du hättest dein Zimmer ganz weit oben und könntest über die ganze Stadt schauen.</p>                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/europa/Eiffelturm.svg" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Notre Dame -->
+                    <section class="modal-window" id="modal7">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Die Notre-Dame de Paris </h2>
+                                <div class="modal-text">
+                                        <p> Die „Unsere Liebe Frau von Paris“ ist nicht nur über 800 Jahre alt (gebaut von 1163 – 1345, das hat ganz schön lange gedauert!), sondern steht genau in der Mitte von Paris. </p>
+                                        <p> Die Türme der Kathedrale (Eine große Kirche, in der ein Bischof wohnt) sind 69 Meter hoch (4x Notre-Dame übereinander ergibt in etwa die Höhe des Eiffelturms) und über 10.000 Leute (Das ist eine ganze Kleinstadt) passen in die Notre-Dame. </p>                            
+                                        <h3> Wusstest du schon? </h3>
+                                        <p>Anders als im Buch und Film „Der Glöckner von Notre Dame“, lebt auf dem Dach kein buckeliger Glöckner. Auf dem Dach von Notre-Dame leben Bienen. Warum eigentlich? </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/europa/NotreDame.svg" >
+                            </div>
+                        </div>
+                    </section>
+
+                     <!-- Turm von Pisa -->
+                     <section class="modal-window" id="modal8">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Der schiefe Turm von Pisa </h2>
+                                <div class="modal-text">
+                                    <p> Warum ist er eigentlich schief? Weil sich der Boden unter dem Turm über die Zeit sehr verformt hat! Er musste mehrmals ausgebessert werden. </p>
+                                    <p> Im Turm gibt es sogar sieben Glocken. Die dürfen aber leider nicht geläutet werden, weil der Turm sonst einstürzen könnte. </p>                            
+                                    <h3> Wusstest du schon? </h3>
+                                    <p> Es gibt noch mehr schiefe Türme, nur der von Pisa ist am bekanntesten. Heute wird er regelmäßig kontrolliert, damit er uns nicht auf den Kopf fällt! </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/europa/TurmVonPisa.svg" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Kolosseum -->
+                    <section class="modal-window" id="modal9">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2>Das Kolosseum</h2>
+                                <div class="modal-text">
+                                    <p> Das Kolosseum ist ein altes riesiges Theater mit einer großen Arena in der Mitte. </p>
+                                    <p> In dieser Arena wurden früher ganz viele verschiedene Veranstaltungen gezeigt. Und über 50.000 Leute passten da rein!</p>
+                                    <p>Leider war in der Arena auch viel Blut zu sehen. Oft mussten sogenannte Gladiatoren gegeneinander kämpfen. Für die Leute damals war das Unterhaltung. Heute passiert dies natürlich nicht mehr.</p>               
+                                    <h3>Wusstest du schon?</h3>
+                                    <p>Die Arena in der Mitte konnte sogar geflutet werden. Damit hat man auch manchmal Seeschlachten mit kleinen Schiffen gezeigt.</p> 
+                                    <p>Vielleicht wirst du ja sogar nass, wenn du ganz unten sitzt.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/europa/Kolosseum.svg" style="padding-right: 30px;" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chinesische Mauer -->
+                    <section class="modal-window" id="modal20">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Die chinesische Mauer </h2>
+                                <div class="modal-text">
+                                    <p>Die Chinesische Mauer war lange Zeit das längste Bauwerk der Welt und steht an den geschichtlichen Grenzen Chinas in Asien.</p>
+                                    <p>Die Mauer wurde damals gebaut, um das Land China vor Angreifern zu schützen. Durch die Mauer konnte der gesamte Nordern des Landes verteidigt werden. 
+                                        Bei Angriffen wurde die Mauer häufig beschädigt, aber immer wieder repariert und erneuert.</p>
+                                    <p>Der Bau der Mauer hat sehr lange gedauert. Die Mauer wurde nämlich Stück für Stück erweitert und ist heute insgesamt 21 Tausend Kilometer lang. 
+                                        Das ist so lang wie 6 mal um Deutschland herum zu laufen!  </p>                                                                    
+                                    <h3>Wusstest du schon?</h3>
+                                    <p>Zum Bau der Mauer wurde neben Stein, Holz und Lehm auch Reis als Rohstoff verwendet.</p>
+                                    <p>Die Mauer solltest du aber trotzdem nicht essen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/asien/chinesischeMauer.svg" style="padding-right: 30px;" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Taj Mahal -->
+                    <section class="modal-window" id="modal21">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2>Der Taj Mahal</h2>
+                                <div class="modal-text">
+                                    <p>Der Taj Mahal ist die bekannteste Sehenswürdigkeit im Land Indien.</p>
+                                    
+                                    <p>Taj Mahal bedeutet auf deutsch "Krone des Palastes". Der gigantische Palast wurde gebaut als Grab für ein Mitglied der indischen Herrscherfamilie. Das Gebäude wurde dabei komplett aus Marmor gebaut und sieht von allen Seiten gleich aus.</p>
+                                    
+                                    <p>Um das riesige Grabgebäude erstreckt sich ein großer Park. Der Park besteht aus viel Natur, einer Moschee zum Beten und einem Gästehaus. </p>
+                                                                    
+                                    <h3>Wusstest du schon?</h3>
+
+                                    <p>Der benötigte Marmor wurde von 1000 Elefanten transportiert und ungefähr 22000 Menschen haben am Bau mitgearbeitet. 
+                                        Der Taj Mahal ist damit ohne Frage eines größten Bauprojekte Indiens.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/asien/taj_mahal.svg" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Mount Everest -->
+                    <section class="modal-window" id="modal22">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Der Mount Everest <h2>
+                                <div class="modal-text">
+                                    <p>Vom Mount Everest hast du sicher schon gehört: Das ist der höchste Berg der Welt!</p>
+                                    <p>Der Berg ist genau 8848 Meter hoch. Stell dir vor, du stapelst 5 Tausend Menschen übereinander und du hast ungefähr die Größe des Bergs. Also unfassbar hoch!</p>
+                                    <p>Der Weg rauf ist deshalb sehr lang und auch sehr gefährlich. Es gibt 20 verschiedene Wege auf die Spitze. Alle Wege sind aber steil und du brauchst viel Vorbereitung.</p>
+                                    <p>Es ist aber nicht unmöglich. Es gab auch schon einen 13 Jahre jungen Mann und einen 80 Jahre alten Mann auf dem Gipfel.</p>
+                                    <h3>Wusstest du schon?</h3>
+                                    <p>Vielleicht bist du schon einmal Ski gefahren oder hast anderen dabei zugesehen. Man kann vom Gipfel des Berges 5 Stunden ohne Pause runter fahren.</p>
+                                    <p>Dann ist man auf jeden Fall deutlich schneller unten als oben.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/asien/mounteverest.svg" style="padding-right: 30px">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Kirschbaum -->
+                    <section class="modal-window" id="modal23">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Kirschbaum <h2>
+                                <div class="modal-text">
+                                    <p>Jedes Jahr im Frühling verwandelt sich Japan in ein buntes Blütenmeer. Zwischen März und Mai blüht die Kirschblüte.</p>                                  
+                                    <p>In Japan symbolisiert die weiß-rosa farbige Blüte des Kirschbaumes Hoffnung, Reinheit, Schönheit und Neuanfang.    </p>                                     
+                                    <p> Eine wichtige Tradition ist das Kirschblütenfest. Hier versammeln sich Freund, Familien oder Kollegen an öffentlichen Plätzen und feiern bis in die Nacht.  </p>       
+                                    <h3>Wusstest du schon?</h3>
+                                    <p>  Der japanische Namen des Fest lautet „Hanami“ und bedeutet „Blüten betrachten“.     </p>                                          
+                                    <p>   Die Kirschbäume blühen nur etwa 10 Tage in ihrer ganzen Schönheit und symbolisieren die Schönheit des Lebens.  </p>
+                                    <p>   Die Menschen kommen in dieser Zeit zusammen, um die schönen Momente des Lebens zu genießen. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/asien/kirschbaum.svg" style="padding-right: 30px">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Fuji -->
+                    <section class="modal-window" id="modal24">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Der Berg Fuji <h2>
+                                <div class="modal-text">
+                                    <p>Der Berg Fuji ist der höchste Berg Japans und ein aktiver Vulkan.</p>                                    
+                                    <p>Es ist unklar, wann der Vulkan das nächste mal ausbrechen wird. Trotzdem besuchen regelmäßig viele Touristen den hohen Berg. 
+                                        Die Hauptstadt Japans befindet sich in der Nähe des Vulkans und wäre im Falle eines Ausbruchs stark betroffen.</p>                                    
+                                    <p>In Japan ist der Berg Fuji heilig. Man glaubt, auf dem Berg leben Gottheiten. Aus diesem besuchen regelmäßige auch gläubige Einheimische den Berg. 
+                                        Dadurch soll der Ausbruch des Vulkans verhindert werden.</p>                                                                    
+                                        <h3>Wusstest du schon?</h3>                                    
+                                    <p>Den Berg zu besteigen, dauert nur 4 bis 8 Stunden und ist damit für einen Tagesausflug geeignet. 
+                                        Der Berg Fuji ist damit trotz seiner Höhe leicht zu besteigen und auch für ältere Menschen ein Ziel.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/asien/fuji.svg" style="padding-right: 30px;">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Asiatische Architektur -->
+                    <section class="modal-window" id="modal25">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Asiatische Architektur <h2>
+                                <div class="modal-text">
+                                    <p>So sehen viele Häuser und Tempel in Asien aus. Wenn Gebäude entworfen und gebaut werden, dann nennt man das Architektur. Und wie du siehst, ist die Architektur in Asien ganz anders als bei uns in Europa.</p>
+                                    <p>Am auffälligsten sind die geschwungenen Dächer. Die sehen nicht nur schick aus, sondern sind auch sehr sicher. Fast alle Gebäude in Asien haben diese Dächer. Meistens werden sogar mehrere übereinander gestapelt.</p>
+                                    <p>Gebaut werden die Häuser viel aus Holz, Lehm und Erde. Ganz anders als in Europa, hier wird eher mit Stein gebaut. In China, einem Land in Asien, steht Holz für "Aktivität", Wachstum und für Leben. Auch deshalb baut man sehr viel aus Holz.</p>
+                                    <h3>Wusstest du schon?</h3>
+                                    <p>Die Häuser in Japan (Das ist ein anderes Land in Asien) sind weltweit die sichersten Häuser gegen Katastrophen und Erdbeben.</p>
+                                    <p>Natürlich sind aber auch die Häuser in Deutschland sehr sicher. Du brauchst also keine Angst zu haben!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/asien/architektur.svg" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Pyramiden -->
+                    <section class="modal-window" id="modal30">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Die Pyramiden von Gizeh </h2>
+                                <div class="modal-text">
+                                    <p> Sie gehören zu den einzigen, heute noch erhaltenen sieben „antiken“ Weltwundern! Über 4500 Jahre alt und die ältesten Bauwerke der Menschheit! </p>
+                                    <p> Pyramiden bestehen aus Millionen Steinblöcken. Diese mussten damals noch per Hand transportiert werden. Räder gab es damals noch nicht. </p>
+                                    <h3> Wusstest du schon? </h3>
+                                    <p> Kennst du schon alle sieben antiken Weltwunder?: </p>
+                                    <p>- Die hängenden Gärten von Babylon <br>
+                                     - Der Koloss von Rhodos<br>
+                                     - Das Mausoleum von Halikarmassos <br>
+                                     - Der Leuchtturm vor Alexandria <br>
+                                     - Die Pyramiden von Gizeh <br>
+                                     - Der Tempel der Artemis<br>
+                                     - Die Zeusstatue von Olympia </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/afrika/Pyramide.svg" style="padding-right: 30px">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Kamel -->
+                    <section class="modal-window" id="modal31">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Das Kamel </h2>
+                                <div class="modal-text">
+                                    <p>Das Kamel wird häufig als Wüstenschiff bezeichnet, denn lange Zeit konnten Wüsten nur mit Hilfe der Kamele durchquert werden.</p>
+                                    <p>Der Mensch begann vor etwa 6000 Jahren mit der Zähmung dieser faszinierenden Tiere.</p>
+                                    <p>Die Unterart Dromedar hat einen Höcker und das Trampeltier zwei.</p>
+                                    <p>Kamele ertragen Temperaturen zwischen -35°C und +45°C.<br> Viele Menschen denken in den Höckern speichere das Tier Wasser, aber dort werden Fettreserven gespeichert. <br>
+                                        Kamele haben keine natürlichen Feinde denn sie sind die einzigen Säugetiere dieser Größe, welche in den trockenen Lebensräumen überleben können.</p>
+                                    <p>Kamele haben drei verschiedene Mägen. Diese dienen zur erschwerten Verdauung der dornigen Pflanzen, welche die Hauptnahrung der Kamele darstellt.<br>
+                                    Sie leben in Gruppen und sind tagaktiv.</p>
+                                    <h3> Wusstest du schon? </h3>
+                                    <p>Ein durstiges Kamel kann in 15 Minuten 200 Liter Wasser trinken.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/afrika/Kamel.svg" style="padding-right: 30px">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Sphinx -->
+                    <section class="modal-window" id="modal32">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Die Sphinx von Gizeh </h2>
+                                <div class="modal-text">
+                                    <p> Die Sphinx ist über 4000 Jahre alt und einer der größten Statuen der Welt. </p>
+                                    <p> Sie ist zwar nicht sonderlich hoch (20 Meter), aber dafür mit 73 Metern ziemlich lang! (Das ist fast so lang, wie ein Fußballfeld) </p>
+                                    <h3> Wusstest du schon? </h3>
+                                    <p> Sie hat den Körper eines Löwen und den Kopf eines Mannes (Das sieht bestimmt ganz lustig aus). 
+                                        Es heißt, sie bewacht die Pyramiden von Gizeh vor Geistern und Dieben. Hättest du auch gerne eine Sphinx, die dich bewacht? </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/afrika/Sphinx.svg">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Nashorn -->
+                    <section class="modal-window" id="modal33">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Das Breitmaulnashorn </h2>
+                                <div class="modal-text">
+                                    <p>Das Breitmaulnashorn hat nicht nur einen sehr langen Namen. Es hat außerdem zwei auffällig lange Hörner.</p>                                    
+                                    <p>Ähnlich wie bei Elefanten werden diese Hörner vor allem zur Verteidigung genutzt. 
+                                        Glückerlicherweise sind Breitmaulnashörner auch Pflanzenfresser und normalerweise keine Angreifer. Gegessen werden Blätter, Gras und andere Pflanzen.</p>                                    
+                                    <p>Weibliche Breitmaulnashörner und ihre Kinder leben häufig in Gruppen zusammen. Die Männer sind eher alleine unterwegs und beschützen gerne ihr Gebiet. 
+                                        Bei einem Gewicht von ungefähr 2000 Kilogramm (Das ist 32 mal so viel wie ein durchschnittlicher Mensch!) ist es aber eh schon schwierig, die Nashörner aus ihrem Gebiet zu vertreiben.</p>                                                                    
+                                    <h3>Wusstest du schon?</h3>                                    
+                                    <p>Breitmaulnashörner leben schon seit 40 Millionen Jahren auf der Erde. 25 Millionen Jahre länger und sie hätten noch Dinosaurier gesehen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/afrika/Nashorn.svg" style="padding-right: 30px">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Büffel -->
+                    <section class="modal-window" id="modal34">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Der afrikanische Büffel </h2>
+                                <div class="modal-text">
+                                    <p>Der afrikanische Büffel wird auch Savannenbüffel genannt und ist ein Herdentier.</p>                                    
+                                    <p>Herdentiere wie der afrikanische Büffel leben in Herden von 50 bis 500 Tieren. 
+                                        Häufig existieren in der Herde kleine Gruppen bestehend aus mehreren weiblichen Tieren und ihren Kindern.</p>                                    
+                                    <p>Die Freundschaft zwischen den Herdentieren ist bemerkenswert. Auf Hilferufe von Einzeltiere wird fast immer von der gesamten Herde geantwortet. 
+                                        Die große Herde ist daher wie eine sehr große Familie.</p>                                                                    
+                                     <h3>Wusstest du schon?</h3>                                    
+                                    <p>Der afrikanische Büffel kann manchmal so groß werden wie ein erwachsener Mensch.</p>                                    
+                                    <p>Stell dir vor, auf dich kommen ganz viele erwachsene Menschen zu gelaufen. So müssen sich andere Tiere in der Savanne fühlen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/afrika/Büffel.svg" style="padding-right: 30px"> 
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Leopard -->
+                    <section class="modal-window" id="modal35">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Der Leopard </h2>
+                                <div class="modal-text">
+                                    <p>Der Leopard ist ähnlich wie der Löwe auch eine sehr gefährliche Raubkatze. </p>                                   
+                                    <p>Die Größe und das Verhalten von Leoparden hängt von ihrem Lebensraum ab. Im Wald ist ein Leopard eher kleiner und dafür massiv. 
+                                        In offenen Gebieten wie in der Savanne sind Leoparden eher lang und schlank.</p>                                   
+                                    <p>Wie der Löwe ist auch der Leopard ein Fleischfresser. Leoparden essen aber auch zum Beispiel Käfer. 
+                                        Wenn natürlich zufällig eine Gazelle über den Weg läuft, wird auch diese gegegessen.</p>                                                                   
+                                    <h3>Wusstest du schon?</h3>                                   
+                                    <p>Vielleicht kennst du den schwarzen Panther?</p>                                   
+                                    <p>Der schwarze Panther ist eine besondere Art der Leoparden. 
+                                        Statt dem normalen Fleckmuster ist der Panther komplett schwarz.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/afrika/Leopard.svg">
+                            </div>
+                        </div>
+                    </section>
+
+                     <!-- Giraffe -->
+                     <section class="modal-window" id="modal36">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Die Giraffe </h2>
+                                <div class="modal-text">
+                                    <p>Die Giraffe wird 10 bis 25 Jahre alt und ist bekannt für ihren langen Hals und Beine. 
+                                        Ein ausgewachsenes Tier hat vier durchschnittlich 1,8m lange Beine und einen einzigartig langen Hals. 
+                                        Die Giraffe hat nur 7 Halswirbel genauso wie der Mensch, unglaublich, oder?</p>
+                                    <p>Schon mal drüber nachgedacht warum Giraffen den Kopf immer so weit oben haben? 
+                                        Den Kopf zu senken bringt die Giraffe ziemlich zum Schwitzen, das Ganze ist für sie nämlich ein großer Kraftakt. 
+                                        Glücklicherweise müssen Giraffen selten trinken. 
+                                        Durch regelmäßiges Knabbern von Blättern müssen sie glücklicherweise selten trinken. 
+                                        Die bis zu 50cm lange blaue Zunge dient als Greifwerkzeug für die leckeren Blätter.</p>
+                                    <p>Mit einer Körpergröße bis zu 6 Metern ist die Giraffe das größte lebende Säugetier auf der Welt. 
+                                        Wegen der Größe und ihrer starken Beine haben Giraffen nur in jungen Jahren große Raubtiere wie Löwen als natürliche Feinde.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/afrika/Giraffe.svg">
+                            </div>
+                        </div>
+                    </section>
+
+                     <!-- Löwe -->
+                     <section class="modal-window" id="modal37">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2>Der Löwe</h2>
+                                <div class="modal-text">
+                                    <p>Der Löwe wird auch als König der Savanne bezeichnet. </p>
+                                    <p>Dieser Titel kommt zum einen durch die majestätische Mähne. 
+                                        Obwohl der Löwe nach dem Tiger die zweitgrößte Raubkatze ist und auch ohne Mähne schon sehr majestätisch aussieht.</p>
+                                    <p>Zum anderen ist der Löwe ein sehr gefährliches Tier. Nachts und am frühen Morgen jagt der Löwe regelmäßig seine Beute. 
+                                        Dazu zählen kleine Tiere wie Hasen und Vögel, aber auch große Beute wie Zebras und Antilopen.</p>                                                                    
+                                    <h3>Wusstest du schon?</h3>
+                                    <p>Löwen schlafen fast den ganzen Tag. Stell dir vor, du könntest den ganzen Tag nichts tun.</p>
+                                    <p>Vielleicht würdest du dich darüber freuen, vielleicht wäre das aber auch sehr schnell sehr langweilig.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/afrika/Löwe.svg" >
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Elefant -->
+                    <section class="modal-window" id="modal38">
+                        <div class="modal-bubble">
+                            <div class="modal-content">
+                                <button class="close-modal"></button>
+                                <h2> Der afrikanische Elefant </h2>
+                                <div class="modal-text">
+                                    <p>Der afrikanische Elefant ist eines der größten Tiere der Erde. Man kann sie also schwer übsersehen.</p>
+                                    <p>Obwohl Elefanten sehr große und mächtige Tiere sind, sind sie normalerweise friedliche Pflanzenfresser. 
+                                        Elefanten können sich aber mit ihren großen Stoßzähnen verteidigen. Leider werden diese wertvollen Stoßzähne häufig von Wilderern bedroht und abgeschnitten.</p>
+                                    <p>Täglichen bewegen sich Elefanten für die Nahrungssuche bis zu 12 Kilometer. (Das ist doppelt so viel wie ein durchschnittlicher Mensch!). 
+                                        Elefanten bewegen sich im Laufe ihres Lebens also sehr viel.</p>                                                                    
+                                    <h3>Wusstest du schon?</h3>
+                                    <p>Elefanten brauchen pro Tag bis zu 300 Liter Wasser. Für den Menschen wäre das viel zu viel.</p>
+                                    <p>Du solltest versuchen, jeden Tag ein bis zwei Liter zu trinken.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="modal-attraction">
+                            <div class="attraction">
+                                <img src="./images/modal/attractions/afrika/Elefant.svg">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Siegessäule -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal2"
+                    data-top="left:3860px;"
+                    data--16359-top="left:2860px;">
+                </button>
+        
+                <!-- East Side Gallery -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal3"
+                    data-top="left:5500px;"
+                    data--16359-top="left:4500px;"
+                    style="top: 550px">
+                </button>
+    
+                <!-- Reichstag -->
+                <button 
+                  class="open-modal" 
+                  data-modal-id="modal4"
+                  data-top="left:7127px;"
+                  data--16359-top="left:6127px;">
+              </button>
+
+                <!-- Brandenburger Tor -->
+                <button
+                    class="open-modal" 
+                    data-modal-id="modal5"
+                    data-top="left:8650px;"
+                    data--16359-top="left:7650px;">
+                </button>
+
+              <!-- Eiffelturm -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal6"
+                    data-top="left:9850px;"
+                    data--16359-top="left:8850px;">
+                </button>
+
+                <!-- Notre Dame -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal7"
+                    data-top="left:10360px;"
+                    data--16359-top="left:9360px;">
+                </button>
+
+                <!-- Turm von Pisa -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal8"
+                    data-top="left:12190px;"
+                    data--16359-top="left:11190px;">
+                </button>
+                
+                <!-- Kolosseum -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal9"
+                    data-top="left:13150px;"
+                    data--16359-top="left:12150px;">
+                </button>
+
+                <!-- Menü Übergang zu Asien -->
+                <div class="modal-menu-wrapper" 
+                data-top="visibility:hidden"
+                data--11800-top="visibility: visible;"
+                data--16500-top="visibility:hidden">
+                    <!-- Komplettes Modalfenster -->
+                    <section class="modal-menu-window" id="modal-menu1"  
+                    data-top="visibility:hidden"
+                    data--11800-top="opacity:0; visibility: visible"
+                    data--12000-top="opacity:1;"
+                    data--16300-top="opacity:1;"
+                    data--16800-top="opacity:0; visibility: hidden">
+                        <div id="scene-menu">
+                            <div id="menu">
+                                <button id="europe"><a href="#europa" data-menu-top="990"><img src="./images/menu/menu_europa.svg"></a></button>
+                                <button id="asia"><a href="#asien" data-menu-top="16900"><img src="./images/menu/menu_asien.svg"></a></button>
+                                <button id="africa"><a href="#afrika" data-menu-top="32210"><img src="./images/menu/menu_afrika.svg"></a></button>
+                            </div>
+                            
+                            <!-- Karte Europa -> Asien -->
+                            <div id="step_01" class="parallax-layer-menu">
+                                <img class="continent01" src="./images/menu/start_europa.svg" alt="europa" >
+                                <img class="continent02" src="./images/menu/start_asien.svg" alt="asien" data-13200="opacity: 0;" data-15500="opacity: 1;">
+                                <div id="path01">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="-969 -425 2000 2000">
+                                        <path
+                                            style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;stroke-dashoffset:0;stroke-dasharray:6000;"
+                                            data--12500-top="stroke-dashoffset:6000;" data-end="stroke-dashoffset:0;" 
+                                            d="M1,28.74c0,0,167.1-70.75,351,12.26"/>
+                                    </svg>
+                                </div>
+                                
+                                <div id="fuchs-menu-uebergang_asien" class="fuchs-menu"></div>
+                            </div>
+                    </section>
+                </div>
+
+            </div><!-- Nächster Kontinent Asien
+            --><div id="asien">
+
+                <!-- Hintergründe Asien -->
+                <div id="asien-10_Himmel" class="parallax-layer-asien"></div>
+                <div id="asien-9_Wolken_Dunkel" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -5000px;"></div>
+                <div id="asien-8_Wolken_Hell" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -4000px;"></div>
+                <div id="asien-7_Hintergrundberg" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: 500px;"></div>
+                <div id="asien-6_Mounteverest" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -1000px;"></div>
+                <div id="asien-5_Berg" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -500px;"></div>
+                <div id="asien-4_Fuji" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -1500px;"></div>
+                <div id="asien-3_ChinesischeMauer" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -3000px;"></div>
+                <div id="asien-2_Huegel2" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -3450px;"></div>
+                <div id="asien-1_Huegel1" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -5000px;"></div>
+                <div id="asien-0_Pfad" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -1000px;"></div>
+                <div id="asien-0_Pfad_Vordergrund" class="parallax-layer-asien" data-anchor-target="#asien" data--16359-top="left:0px" data--31896-top="left: -1000px;"></div>
+
+
+                <!-- Buttons zu Asien -->
+                <!-- Chinesische Mauer -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal20"
+                    data--16359-top="left:2150px;"
+                    data--31896-top="left:-1150px;">
+                </button>
+
+                <!-- Taj Mahal -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal21"
+                    data--16359-top="left:9435px;"
+                    data--31896-top="left:4435px;">
+                </button>
+        
+                <!-- Mount Everest -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal22"
+                    data--16359-top="left:7000px;"
+                    data--31896-top="left:6000px;"
+                    style="top: 450px">
+                </button>
+        
+                <!-- Kirschbaum -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal23"
+                    data--16359-top="left:11600px;"
+                    data--31896-top="left:10600px;">
+                </button>
+        
+                <!-- Fuji -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal24"
+                    data--16359-top="left:13400px;"
+                    data--31896-top="left:11900px;"
+                    style="top: 450px">
+                </button>
+
+                <!-- Asiatische Architektur -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal25"
+                    data--16359-top="left:3950px;"
+                    data--31896-top="left:-950px;">
+                </button>
+
+                 <!-- Menü Übergang zu Afrika -->
+                 <div class="modal-menu-wrapper" 
+                 data-top="visibility:hidden"
+                 data--28200-top="visibility: visible;"
+                 data--32500-top="visibility:hidden">
+                     <section class="modal-menu-window" id="modal-menu2"
+                     data-top="visibility:hidden"
+                     data--28200-top="opacity:0; visibility:visible"
+                     data--28400-top="opacity:1;"
+                     data--31900-top="opacity:1;"
+                     data--32200-top="opacity:0; visibility:hidden">
+                         <div id="scene-menu">
+                             <div id="menu">
+                                 <button id="europe"><a href="#europa" data-menu-top="990"><img src="./images/menu/menu_europa.svg"></a></button>
+                                 <button id="asia"><a href="#asien" data-menu-top="16900"><img src="./images/menu/menu_asien.svg"></a></button>
+                                 <button id="africa"><a href="#afrika" data-menu-top="32210"><img src="./images/menu/menu_afrika.svg"></a></button>
+                             </div>
+                             
+                             <div id="step_01" class="parallax-layer-menu">
+                                 <img class="continent01" src="./images/menu/start_asien.svg" alt="asien" >
+                                 <img class="continent02" src="./images/menu/start_afrika.svg" alt="asien" data-28200="opacity: 0;" data-31900="opacity: 1;">
+                                 <div id="path01">
+                                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="-895 -465 2000 2000">
+                                         <path
+                                             style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;stroke-dashoffset:0;stroke-dasharray:6000;"
+                                             data--28500-top="stroke-dashoffset:6000;" data-end="stroke-dashoffset:0;" 
+                                             d="M421,1.4C421,1.4,250-1,140,220"/>
+                                     </svg>
+                                 </div>
+
+                                 <!-- Fuchs mit Text während Übergang -->
+                                <div id="fuchs-menu-uebergang_afrika" class="fuchs-menu"></div>
+                             </div>
+                     </section>
+                 </div>
+
+            </div><!-- Nächster Kontinent Afrika
+            --><div id="afrika">
+                <div id="afrika-HimmelHintergrund" class="parallax-layer-afrika"></div>
+                <div id="afrika-Sonne" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left: 150px; top: 300px;"  data--37200-top="left: 4500px; top: -700px;"></div>
+                <div id="afrika-Sonne_Ende" class="parallax-layer-afrika" data-anchor-target="#afrika" data--35200-top="left: -4500px; top: -1000px;" data--44845-top="left: 0px; top: 800px"></div>
+                <div id="afrika-Palmen" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left:-1000px;"></div>
+                
+                <div id="afrika-Ebene3Wueste" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left:500px;"></div>
+                <div id="afrika-Pyramiden" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left:-500px;"></div>
+                <div id="afrika-Ebene2Wueste" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left:-1500px;"></div>
+
+                <div id="afrika-Ebene4Safari" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left: 500px;"></div>
+                <div id="afrika-Ebene3Safari" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left:-500px;"></div>
+                <div id="afrika-Ebene2Safari" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left:-1500px;"></div>
+
+                <div id="afrika-Ebene" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left:-3900px"></div>
+                <div id="afrika-Wolken" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left:-5300px;"></div>
+                <div id="afrika-Boden" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left: -1000px;"></div>
+                <div id="afrika-Boden_vordergrund" class="parallax-layer-afrika" data-anchor-target="#afrika" data--31896-top="left:0px;" data--44845-top="left: -1000px;"></div>
+
+
+                <!-- Buttons zu Afrika -->
+
+                <!-- Pyramiden -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal30"
+                    data--31896-top="left:1450px;"
+                    data--44845-top="left:-250px;">
+                </button>
+        
+                 <!-- Kamel -->
+                 <button 
+                    class="open-modal" 
+                    data-modal-id="modal31"
+                    data--31896-top="left:2900px;"
+                    data--44845-top="left:-1000px;"
+                    style="top: 565px;">
+                </button>
+        
+                 <!-- Sphinx -->
+                 <button 
+                    class="open-modal" 
+                    data-modal-id="modal32"
+                    data--31896-top="left:4000px;"
+                    data--44845-top="left:100px;"
+                    style="top: 550px">
+                </button>
+    
+                <!-- Nashorn -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal33"
+                    data--31896-top="left:8580px;"
+                    data--44845-top="left:7080px;"
+                    style="top: 450px">
+                </button>
+
+                <!-- Büffel -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal34"
+                    data--31896-top="left:10140px;"
+                    data--44845-top="left:8640px;"
+                    style="top: 480px">
+                </button>
+        
+                <!-- Leopard -->
+                <button 
+                   class="open-modal" 
+                   data-modal-id="modal35"
+                   data--31896-top="left:8150px;"
+                   data--44845-top="left:4250px;"
+                   style="top: 500px">
+               </button>
+    
+               <!-- Giraffe -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal36"
+                    data--31896-top="left:9200px;"
+                    data--44845-top="left:5300px;"
+                    style="top: 280px">
+                </button>
+        
+                <!-- Löwe -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal37"
+                    data--31896-top="left:10050px;"
+                    data--44845-top="left:6150px;"
+                    style="top: 450px">
+                </button>
+    
+                <!-- Elefant -->
+                <button 
+                    class="open-modal" 
+                    data-modal-id="modal38"
+                    data--31896-top="left:10700px;"
+                    data--44845-top="left:6700px;">
+                </button>
+
+                 <!-- Menü EndCard -->
+                 <div class="modal-menu-wrapper" 
+                 data-top="visibility:hidden"
+                 data--40400-top="visibility: visible;">
+                     <section class="modal-menu-window" id="modal-menu2"
+                     data-top="visibility:hidden"
+                     data--40400-top="opacity:0; visibility:visible"
+                     data--40800-top="opacity:1;">
+                         <div id="scene-menu">
+                             <div id="menu">
+                                 <button id="europe"><a href="#europa" data-menu-top="990"><img src="./images/menu/menu_europa.svg"></a></button>
+                                 <button id="asia"><a href="#asien" data-menu-top="16900"><img src="./images/menu/menu_asien.svg"></a></button>
+                                 <button id="africa"><a href="#afrika" data-menu-top="32210"><img src="./images/menu/menu_afrika.svg"></a></button>
+                             </div>
+                             
+                             <div id="step_01" class="parallax-layer-menu">
+                                 <img class="continent01" src="./images/menu/start_afrika.svg" alt="asien" >
+                                
+                                 <!-- Fuchs mit Abschiedstexten -->
+                                <div  id="fuchs-menu-ende1" class="fuchs-menu" data--40400-top="opacity: 0;" data--42000-top="opacity: 1;"  data--44000-top="opacity: 0;"></div>
+                                <div  id="fuchs-menu-ende2" class="fuchs-menu"  data--42000-top="opacity: 0;" data--44000-top="opacity: 1;" data--44845-top="opacity: 0;"></div>
+                             </div>
+                     </section>
+                 </div>
+           </div>
+            
+           <!-- Fuchs im Vordergrund einbinden -->
+           <div id="fuchs-laufend"></div>
+        </div>
+
+
+        <!-- Frameworks einbinden -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+        <script src="https://unpkg.com/skrollr-menu@1.0.3/dist/skrollr.menu.min.js"></script>
+        <script src="./js/modal.js"></script>
+        <script src="./js/modal-menu.js"></script>
+            
+        <script type="text/javascript">
+            //Laufanimation
+            var protagonist = $('#fuchs-laufend');
+            positions = [0, -300, -600, -900, -1200, -1500, -1800];
+            currentPosition = 0;
+            lastPosition = 0;
+            animationAmount = 7;
+            scrolledDown = false;
+    
+            //Skrollr initialisieren
+            var s = skrollr.init({
+                smoothScrolling: true,
+                render: function(data) {
+                //Aktuelle Scrollposition loggen
+                console.log(data.curTop);
+                },
+
+                //Laufanimation des Fuchses
+                beforerender: function(f){
+                    //wenn nach unten (weiter) gescrollt wurde
+                    if(f.curTop > lastPosition + 150){
+                        //nach letzem Bild soll wieder auf erstes gewechselt werden
+                        if (currentPosition >= animationAmount-1){
+                            currentPosition = -1; //erstes Bild 
+                        }
+                        //position auf Sprite setzen
+                        protagonist.css('background-position', positions[++currentPosition] + 'px ');
+                        //aktuelle Position speichern
+                        lastPosition = f.curTop;
+
+                    //wenn nach oben (zurück) gescrollt wurde
+                    }else if(f.curTop < lastPosition - 150){
+                        //nach erstem Bild soll wieder auf letztes gewechselt werden
+                        if (currentPosition <= 0){
+                            currentPosition = animationAmount; //letztes bild
+                        }
+                        //position auf Sprite setzen
+                        protagonist.css('background-position', positions[--currentPosition] + 'px ');
+                        //aktuelle Position speichern
+                        lastPosition = f.curTop;
+                    }
+                }
+            });
+
+            //Skrollr-Menu initialisieren
+            skrollr.menu.init(s, {
+                //skrollr soll smoothly zu neuen Position animieren
+                animate: true,
+
+                //Dauer der Animation in Millisekunden
+                duration: function(currentTop, targetTop) {
+                    return 1000;
+                },
+
+                //The easing function to use.
+                easing: 'sqrt',
+
+                //data-[offset] Multiplier an skrollr.init anpassen
+                scale: 1
+            });
+        </script>
+    </body>
+</html>

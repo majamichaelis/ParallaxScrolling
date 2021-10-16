@@ -1,0 +1,213 @@
+
+/***************/
+/*** Modals ***/
+/*************/
+
+/* Modales Fenster */
+.modal-window {
+    position: fixed; 
+    top:0;
+    left:0;
+    height: 100%; /* Modalfenster legt sich über die komplette Seite */
+    width: 100%; 
+    background-color: rgba(0,0,0,0.9); 
+    z-index: 102;
+    transform: scale(0);
+    /* overflow: auto; */
+}
+
+.modal-window.visible {
+    transform: scale(1);
+}
+
+/****************/
+/*** Buttons ***/
+/**************/
+
+/* Open Button */ 
+.open-modal{
+    position: absolute;
+    background: url(../images/modal/buttons/open.svg) no-repeat;
+    width: 100px; 
+    height: 100px; 
+    top: 500px; /* Abstand zur Sehenswürdigkeit, ggf. je nach Sehenswürdigkeit anpassen*/
+    left: 500px;
+    z-index: 102; /* Hoher z-index, damit es im Vordergrund steht */
+    border: none;
+    outline:none;
+    cursor: url(../images/sonstiges/favicon.png), pointer;
+}
+
+/* Close Button */
+.close-modal{
+    float: left;
+    background: url(../images/modal/buttons/close.svg) no-repeat;
+    height: 50px; 
+    width: 50px; 
+    margin-left: 10%;
+    border: none;
+    outline:none;
+}
+
+/****************************/
+/*** Modalfenster Inhalt ***/
+/**************************/
+
+/* Wolke */
+.modal-bubble{
+    float:left;
+    height: 100%;
+    width:60%;
+    background: url(../images/modal/Textfeld_wolke.svg) no-repeat;
+  }
+
+/* Inhalt der Wolke */
+.modal-bubble .modal-content{
+    height:100%;
+    width: 80%;
+    margin-left:12%;
+    margin-top:17%;
+}
+
+/* Container der Sehenswürdigkeit*/
+.modal-attraction{
+    float:left;
+    height:100%;
+    width: 40%;
+    
+}
+/* Sehenswürdigkeit im Modalen Fenster */
+.modal-wrapper .attraction{ 
+    /*CSS der Sehenswürdigkeit auf der Stage überschreiben*/
+    position: inherit;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* border: 1px solid green; */
+}
+
+
+/*************************/
+/*** Textformatierung ***/
+/***********************/
+
+.modal-text{
+    float:left;
+    overflow-y: scroll;
+    overflow-x: hidden; /* horizontale scrollbar ausblenden: hidden*/
+    height: 400px; /* overflow funkitioniert nur mit Pixelwerten */
+    width: 70%;
+    padding-top: 10px;
+    margin-left:7%;
+    white-space: normal; /* Zeilenumbruch */
+}
+
+.modal-content h2,h3,p{
+    /* font-family: comicFont; */
+    /* font-family: 'Annie Use Your Telescope'; */
+    font-weight: bold;
+}
+
+h2{
+    float:left;
+    font-size:50px;
+    margin: 0 0 0 5%;
+    text-decoration: underline;
+}
+
+h3{
+    font-size:40px;
+    margin:0;
+}
+
+.modal-text p{
+    font-size:35px;
+}
+
+
+/******************/
+/*** Scrollbar ***/
+/****************/
+
+/* Breite der Scrollbar */
+.modal-text::-webkit-scrollbar{
+    width: 10px;  
+  }
+  
+/* Scrollbarleiste */
+.modal-text::-webkit-scrollbar-track {
+    background:rgba(75,196,75);
+    border-radius: 50px;
+  }
+  
+/* Scrollbarhandle */
+.modal-text::-webkit-scrollbar-thumb {
+    background:rgba(237,109,29);
+    border-radius: 50px;
+  }
+
+
+/**********************/
+/*** Media Queries ***/
+/********************/
+@media screen and (max-width: 1400px){
+    /*Textgröße und Scrollbar anpassen*/
+    .modal-text{
+        height: 300px;
+    }
+
+    h2{
+        font-size:45px;
+    }
+    
+    h3{
+        font-size:35px;
+    }
+    
+    .modal-text p{
+        font-size:28px;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    /*Bei kleineren Bildschirmen auch die Verteilung des Modals anpassen*/
+    .modal-bubble{
+        width:60%;
+        margin-top: 10%;
+      }
+
+    .modal-attraction{
+        width: 40%;
+        margin-top: 10%;
+    }
+
+    .modal-bubble .modal-content{
+        margin-top:15%;
+    }
+
+    .modal-text{
+        height: 220px;
+    }
+
+    h2{
+        font-size:40px;
+    }
+    
+    h3{
+        font-size:30px;
+    }
+    
+    .modal-text p{
+        font-size:22px;
+    }
+
+    .close-modal{
+        height:30px;
+        width: 30px;
+    }
+    
+}

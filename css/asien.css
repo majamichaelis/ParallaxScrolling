@@ -1,0 +1,50 @@
+/** Grafiken Asien */
+#asien-0_Pfad{
+    background: url(../images/asien/ebenen/0_pfad.svg) no-repeat ;
+}
+
+#asien-0_Pfad_Vordergrund{
+    background: url(../images/asien/ebenen/0_pfad_vordergrund.svg) no-repeat ;
+    z-index: 101; /* muss vor dem Fuchs liegen */
+}
+
+#asien-1_Huegel1{
+    background: url(../images/asien/ebenen/1_huegel.svg) no-repeat ;
+}
+
+#asien-2_Huegel2{
+    background: url(../images/asien/ebenen/2_huegel.svg) no-repeat ;
+}
+
+#asien-3_ChinesischeMauer{
+    background: url(../images/asien/ebenen/3_chinesischeMauer.svg) no-repeat ;
+}
+
+#asien-4_Fuji{
+    background: url(../images/asien/ebenen/4_fuji.svg) no-repeat ;
+}
+
+#asien_5_Berg{
+    background: url(../images/asien/ebenen/5_berg.svg) no-repeat ;
+}
+
+#asien-6_Mounteverest{
+    background: url(../images/asien/ebenen/6_mounteverest.svg) no-repeat ;
+}
+
+#asien-7_Hintergrundberg{
+    background: url(../images/asien/ebenen/7_hintergrundberg.svg) no-repeat ;
+}
+
+#asien-8_Wolken_Hell{
+    background: url(../images/asien/ebenen/8_wolken_hell.svg) no-repeat ;
+}
+
+#asien-9_Wolken_Dunkel{
+    background: url(../images/asien/ebenen/9_wolken_dunkel.svg) no-repeat ;
+    z-index: 99;
+}
+
+#asien-10_Himmel{
+    background: url(../images/asien/ebenen/10_Himmel.svg) no-repeat ;
+}

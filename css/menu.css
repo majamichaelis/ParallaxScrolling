@@ -1,0 +1,172 @@
+
+/***************/
+/*** Modals ***/
+/*************/
+
+/* Modales Fenster */
+.modal-menu-window {
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%; /* Modalfenster legt sich über die komplette Seite */
+    width: 100%; 
+    background-color: rgba(16, 39, 45, 1); 
+    z-index: 999;
+    visibility: hidden;
+}
+
+.modal-menu-window.visible {
+    transform: scale(1);
+}
+
+.fuchs-menu{
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 2000;
+}
+
+#fuchs-menu-start{
+    background-image: url(../images/menu/sitzt_sprechblase_menu_start1.svg);
+    width: 85%;
+    height: 85%;
+    top: 15%;
+    left: 5%;
+}
+
+#fuchs-menu-start2{
+    background-image: url(../images/menu/sitzt_sprechblase_menu_start2.svg);
+    width: 85%;
+    height: 85%;
+    top: 15%;
+    left: 5%;
+}
+
+#fuchs-menu-uebergang_asien{
+    background-image: url(../images/menu/sitzt_sprechblase_menu_uebergang_asien.svg);
+    width: 85%;
+    height: 85%;
+    top: 15%;
+    left: 5%;
+}
+
+#fuchs-menu-uebergang_afrika{
+    background-image: url(../images/menu/sitzt_sprechblase_menu_uebergang_afrika.svg);
+    width: 85%;
+    height: 85%;
+    top: 15%;
+    left: 5%;
+}
+
+#fuchs-menu-ende1{
+    background-image: url(../images/menu/sitzt_sprechblase_menu_ende1.svg);
+    width: 85%;
+    height: 85%;
+    top: 15%;
+    left: 5%;
+}
+
+#fuchs-menu-ende2{
+    background-image: url(../images/menu/sitzt_sprechblase_menu_ende2.svg);
+    width: 85%;
+    height: 85%;
+    top: 15%;
+    left: 5%;
+}
+
+
+/**********************************/
+/*** Inhalte des Menü-Fensters ***/
+/********************************/
+
+#scene-Menu{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax-layer-menu{
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.continent01{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.continent02{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+#path01{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 98;
+}
+
+#path02{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+#menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;  
+}
+
+#menu button {
+    height: 8%;
+    width: 8%;
+    margin-left: 30px;
+    padding-top: 20px;
+    border: none;
+    background: none;
+    color: #ffffff;
+    outline: none;
+    opacity: 0.65;
+}
+
+#menu button:hover {
+    height: 8%;
+    width: 8%;
+    margin-left: 30px;
+    padding-top: 20px;
+    border: none;
+    background: none;
+    color: #ffffff;
+    text-align: center;
+    opacity: 1;
+    font-weight: bold;
+}
+
+#menu button:focus{
+    height: 8%;
+    width: 8%;
+    margin-left: 30px;
+    padding-top: 20px;
+    border: none;
+    background: none;
+    color: #000;
+    text-align: center;
+    opacity: 1;
+    font-weight: bold;
+}
+
+#menu *{
+    cursor: inherit;
+    text-align: center;
+    cursor: url(../images/sonstiges/favicon.png), pointer;  /* Cursor ändern: */
+}

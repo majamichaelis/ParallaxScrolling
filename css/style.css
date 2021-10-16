@@ -1,0 +1,74 @@
+@import url("./europa.css");
+@import url("./asien.css");
+@import url("./afrika.css");
+@import url("./modal.css");
+@import url("./menu.css");
+@import url(https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope);
+
+body{
+  margin: 0;
+  cursor: url(../images/sonstiges/cursor.png), pointer;
+  font-family: 'Annie Use Your Telescope'; /* Schriftart für alle setzen */
+}
+
+/* Container in dem alle Kontinente liegen */
+.container {
+  position: fixed;
+  width: 100%;
+  height: 1080px;
+  white-space: nowrap;
+}
+
+/* Spezielle Länge für Europa */
+.parallax-layer {
+  position: absolute;
+  width: 16359px;
+  height: 1080px;
+}
+
+/* Spezielle Länge für Asien */
+.parallax-layer-asien {
+  position: absolute;
+  width: 15537px;
+  height: 1080px;
+}
+
+/* Spezielle Länge für Afrika */
+.parallax-layer-afrika {
+  position: absolute;
+  width: 12949px;
+  height: 1080px;
+}
+
+/* Divs der einzelnen Kontinente */
+#europa {
+  position: relative;
+  width: 16359px;
+  height: 1080px;
+  display: inline-block;
+  overflow:hidden;
+}
+#asien {
+  position: relative;
+  width: 15537px;
+  height: 1080px;
+  display: inline-block;
+}
+#afrika {
+  position: relative;
+  width: 12949px;
+  height: 1080px;
+  display: inline-block;
+}
+
+/* Fuchs mit Laufanimation */
+#fuchs-laufend{
+  position: fixed;
+  background-image: url(../images/sonstiges/bewegung.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 243px;
+  top: 770px;
+  left: 300px;
+  z-index: 100;
+}

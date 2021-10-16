@@ -1,0 +1,44 @@
+/* Grafiken Afrika */
+#afrika-HimmelHintergrund {
+  background: url(../images/afrika/ebenen/Himmel.svg) no-repeat;
+}
+#afrika-Boden {
+  background: url(../images/afrika/ebenen/Boden.svg) no-repeat;
+}
+#afrika-Boden_vordergrund {
+  background: url(../images/afrika/ebenen/Boden_vordergrund.svg) no-repeat;
+  z-index: 101; /* muss vor dem Fuchs liegen */
+}
+#afrika-Ebene {
+  background: url(../images/afrika/ebenen/Ebene1.svg) no-repeat;
+}
+#afrika-Ebene2Safari {
+  background: url(../images/afrika/ebenen/Safari2.svg)no-repeat;
+}
+#afrika-Ebene2Wueste {
+  background: url(../images/afrika/ebenen/Wüste2.svg) no-repeat;
+}
+#afrika-Ebene3Safari {
+  background: url(../images/afrika/ebenen/Safari3.svg) no-repeat;
+}
+#afrika-Ebene3Wueste {
+  background: url(../images/afrika/ebenen/Wüste3.svg) no-repeat;
+}
+#afrika-Ebene4Safari {
+  background: url(../images/afrika/ebenen/Safari4.svg) no-repeat;
+}
+#afrika-Wolken {
+  background: url(../images/afrika/ebenen/Wolken.svg) no-repeat;
+}
+#afrika-Sonne {
+  background: url(../images/afrika/ebenen/Sonnenaufgang.svg) no-repeat;
+}
+#afrika-Sonne_Ende {
+  background: url(../images/afrika/ebenen/Sonnenuntergang.svg) no-repeat;
+}
+#afrika-Pyramiden {
+  background: url(../images/afrika/ebenen/Pyramiden.svg) no-repeat;
+}
+#afrika-Palmen {
+  background: url(../images/afrika/ebenen/Palmen.svg) no-repeat;
+}

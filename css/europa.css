@@ -1,0 +1,47 @@
+/** Grafiken Europa */
+#europa-Hintergrund {
+  background: url(../images/europa/ebenen/Hintergrund.svg) no-repeat;
+}
+#europa-BodenVordergrund{
+  background: url(../images/europa/ebenen/BodenVordergrund.svg) no-repeat;
+  z-index: 101; /* muss vor dem Fuchs liegen */
+}
+#europa-Boden {
+  background: url(../images/europa/ebenen/Boden.svg) no-repeat;
+}
+#europa-HuegelAnfangVorne{
+  background:url(../images/europa/ebenen/HügelAnfangVorne.svg) no-repeat;
+}
+#europa-HuegelAnfangHinten{
+  background:url(../images/europa/ebenen/HügelAnfangHinten.svg) no-repeat;
+}
+#europa-BerlinParisHinten{
+  background:url(../images/europa/ebenen/BerlinParisHinten.svg) no-repeat;
+}
+#europa-BerlinParisVorne{
+  background:url(../images/europa/ebenen/BerlinParisVorne.svg) no-repeat;
+}
+#europa-Autos {
+  background: url(../images/europa/ebenen/Autos.svg) no-repeat;
+}
+#europa-HochhausVorne{
+  background: url(../images/europa/ebenen/HochhäuserVorne.svg) no-repeat;
+}
+#europa-HochhausHinten{
+  background: url(../images/europa/ebenen/HochhäuserHinten.svg) no-repeat;
+}
+#europa-HuegelRomVorne{
+  background:url(../images/europa/ebenen/HügelRomVorne.svg) no-repeat;
+}
+#europa-HuegelRomMitte{
+  background:url(../images/europa/ebenen/HügelRomMitte.svg) no-repeat;
+}
+#europa-HuegelRomHinten{
+  background:url(../images/europa/ebenen/HügelRomHinten.svg) no-repeat;
+}
+#europa-Wolken1 {
+  background: url(../images/europa/ebenen/Wolken1.svg) no-repeat;
+}
+#europa-Wolken2 {
+  background: url(../images/europa/ebenen/Wolken2.svg) no-repeat;
+}
