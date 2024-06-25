@@ -40,3 +40,4 @@
 
 ![AfrikaKontinent - Kopie](https://github.com/majamichaelis/ParallaxScrolling/assets/73911655/a326f5b8-ae97-4080-a0eb-531cceb77cf2)
 <br> Preview of the full graphic for the continent of Africa
+<br>Download the project and open index.html to see other continents and use parallax scrolling.
